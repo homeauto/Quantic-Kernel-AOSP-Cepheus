@@ -24,6 +24,8 @@ menuconfig STAGING
 
 if STAGING
 
+source "drivers/staging/rtl8812au/Kconfig"
+
 source "drivers/staging/rtl8814au/Kconfig"
 
 source "drivers/staging/irda/net/Kconfig"
