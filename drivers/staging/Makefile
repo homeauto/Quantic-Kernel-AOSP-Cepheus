@@ -4,6 +4,7 @@
 obj-y				+= media/
 obj-y				+= typec/
 obj-y                           += rtl8814au/
+obj-$(CONFIG_88XXAU)            += rtl8812au/
 obj-$(CONFIG_IRDA)		+= irda/net/
 obj-$(CONFIG_IRDA)		+= irda/drivers/
 obj-$(CONFIG_PRISM2_USB)	+= wlan-ng/
